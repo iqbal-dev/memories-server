@@ -17,7 +17,7 @@ app.use(cors());
 app.use("/posts", appRoutes);
 app.use("/user", userRoutes);
 
-const CONNECTION_URL = `mongodb+srv://memories-project:memories-project@cluster0.dykys.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const CONNECTION_URL = `mongodb://memoriesmongo:123123@iqbal-dev-memories-mongo-production/mongo`;
 const PORT = process.env.PORT || 5000;
 
 mongoose
